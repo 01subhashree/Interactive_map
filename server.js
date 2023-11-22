@@ -10,7 +10,7 @@ require("dotenv").config();
 const OpenAI = require("openai");
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "your apiKey",
 });
 
 app.post("/locations", async (req, res) => {
